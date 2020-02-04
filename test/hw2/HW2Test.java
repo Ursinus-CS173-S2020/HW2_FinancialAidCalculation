@@ -36,10 +36,10 @@ public class HW2Test {
     }
     
     @Test
-    public void testMidIncome1() {
+    public void testMidIncomeManyKids() {
         double income = 35000;
-        int numKids = 3;
-        double expResult = 3*1000.0; // The expected result
+        int numKids = 5;
+        double expResult = 5*1000.0; // The expected result
         double result = HW2.computeAssistance(income, numKids);
         assertEquals(expResult, result, 0.0);
     }
